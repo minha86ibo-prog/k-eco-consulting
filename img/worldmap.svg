@@ -1,0 +1,241 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="100 0 1555 1024" preserveAspectRatio="xMidYMid meet">
+  <style>
+    .land { fill: #ffffff; stroke: none; }
+    .dot  { fill: #ffffff; }
+    .grid { stroke: #ffffff; stroke-width: 0.6; fill: none; opacity: 0.3; stroke-dasharray: 3 14; }
+  </style>
+
+  <!-- ══ GRID LINES ══ -->
+  <!-- Equator -->
+  <line class="grid" x1="0" y1="512" x2="1980" y2="512" style="opacity:0.45"/>
+  <!-- Tropic of Cancer -->
+  <line class="grid" x1="0" y1="380" x2="1980" y2="380"/>
+  <!-- Tropic of Capricorn -->
+  <line class="grid" x1="0" y1="644" x2="1980" y2="644"/>
+  <!-- Arctic -->
+  <line class="grid" x1="0" y1="210" x2="1980" y2="210"/>
+  <!-- Vertical meridians -->
+  <line class="grid" x1="330"  y1="0" x2="330"  y2="1024"/>
+  <line class="grid" x1="660"  y1="0" x2="660"  y2="1024"/>
+  <line class="grid" x1="990"  y1="0" x2="990"  y2="1024"/>
+  <line class="grid" x1="1320" y1="0" x2="1320" y2="1024"/>
+  <line class="grid" x1="1650" y1="0" x2="1650" y2="1024"/>
+
+  <!-- ══ NORTH AMERICA ══ -->
+  <path class="land" d="
+    M 285,92 L 310,82 L 345,75 L 390,68 L 430,64 L 465,68 L 490,78
+    L 510,88 L 520,100 L 515,112 L 500,118 L 480,115 L 460,120
+    L 448,132 L 440,148 L 430,160 L 415,168 L 400,175 L 385,185
+    L 368,195 L 355,210 L 345,228 L 340,248 L 342,268 L 350,285
+    L 358,300 L 360,318 L 352,334 L 340,345 L 325,352 L 308,356
+    L 292,360 L 278,370 L 268,385 L 260,400 L 255,418 L 258,432
+    L 265,445 L 270,460 L 265,474 L 255,482 L 242,487 L 228,488
+    L 218,480 L 212,468 L 214,453 L 220,440 L 222,425 L 215,412
+    L 205,400 L 198,385 L 200,368 L 208,355 L 215,340 L 212,325
+    L 205,312 L 202,297 L 208,282 L 218,270 L 228,258 L 232,244
+    L 228,230 L 218,218 L 210,205 L 208,190 L 215,178 L 228,168
+    L 238,155 L 240,140 L 232,128 L 220,118 L 210,108 L 215,96
+    L 235,88 L 258,85 Z
+  "/>
+
+  <!-- Alaska -->
+  <path class="land" d="
+    M 155,95 L 175,85 L 195,80 L 212,85 L 215,96 L 205,108
+    L 192,114 L 178,112 L 165,106 Z
+  "/>
+
+  <!-- Greenland -->
+  <path class="land" d="
+    M 465,32 L 495,28 L 528,30 L 555,40 L 570,55 L 568,72
+    L 555,85 L 535,92 L 512,94 L 490,88 L 472,76 L 460,60 Z
+  "/>
+
+  <!-- ══ CENTRAL AMERICA ══ -->
+  <path class="land" d="
+    M 228,488 L 232,502 L 238,518 L 242,530 L 238,540 L 228,545
+    L 218,540 L 214,528 L 218,512 L 222,498 Z
+  "/>
+
+  <!-- Cuba -->
+  <path class="land" d="
+    M 270,428 L 288,424 L 302,428 L 305,436 L 295,442 L 278,440 L 268,434 Z
+  "/>
+
+  <!-- ══ SOUTH AMERICA ══ -->
+  <path class="land" d="
+    M 295,545 L 318,535 L 342,530 L 362,535 L 378,548 L 388,564
+    L 392,582 L 390,600 L 382,618 L 372,635 L 365,654 L 362,674
+    L 362,695 L 365,715 L 368,736 L 365,756 L 355,772 L 340,782
+    L 322,785 L 305,778 L 292,765 L 282,750 L 278,732 L 280,712
+    L 285,692 L 288,672 L 285,652 L 278,633 L 272,613 L 268,592
+    L 268,572 L 272,554 Z
+  "/>
+
+  <!-- ══ EUROPE ══ -->
+  <!-- Main body -->
+  <path class="land" d="
+    M 895,118 L 912,108 L 932,105 L 948,112 L 958,125 L 960,142
+    L 952,158 L 938,168 L 920,172 L 905,165 L 895,150 L 892,135 Z
+  "/>
+  <!-- Iberian Peninsula -->
+  <path class="land" d="
+    M 862,178 L 878,168 L 895,165 L 905,175 L 905,192 L 895,205
+    L 878,210 L 862,202 L 855,188 Z
+  "/>
+  <!-- France + central Europe -->
+  <path class="land" d="
+    M 895,150 L 912,148 L 928,152 L 945,158 L 958,168 L 965,182
+    L 968,198 L 960,212 L 945,220 L 928,222 L 912,218 L 898,208
+    L 888,195 L 885,180 Z
+  "/>
+  <!-- Italy -->
+  <path class="land" d="
+    M 945,195 L 958,190 L 968,198 L 968,215 L 960,228 L 948,232
+    L 938,225 L 935,212 Z
+  "/>
+  <!-- Scandinavia -->
+  <path class="land" d="
+    M 938,68 L 955,58 L 975,55 L 992,65 L 998,82 L 992,98 L 978,108
+    L 960,112 L 945,105 L 935,90 Z
+  "/>
+  <!-- British Isles -->
+  <path class="land" d="
+    M 868,118 L 880,110 L 892,112 L 898,125 L 892,136 L 878,138 L 868,130 Z
+  "/>
+  <!-- Eastern Europe / Balkans -->
+  <path class="land" d="
+    M 965,148 L 985,142 L 1005,148 L 1015,162 L 1010,178 L 995,188
+    L 978,185 L 968,172 Z
+  "/>
+
+  <!-- ══ RUSSIA / CENTRAL ASIA ══ -->
+  <path class="land" d="
+    M 998,65 L 1040,55 L 1090,48 L 1145,45 L 1200,50 L 1248,58
+    L 1285,68 L 1305,82 L 1298,98 L 1278,108 L 1248,112 L 1215,108
+    L 1180,105 L 1148,108 L 1118,115 L 1092,125 L 1068,135 L 1048,142
+    L 1028,142 L 1010,135 L 1000,120 L 998,105 Z
+  "/>
+
+  <!-- ══ MIDDLE EAST / ARABIA ══ -->
+  <path class="land" d="
+    M 1025,195 L 1048,185 L 1068,182 L 1088,188 L 1100,202 L 1098,220
+    L 1085,235 L 1068,242 L 1048,240 L 1032,228 L 1022,212 Z
+  "/>
+
+  <!-- ══ AFRICA ══ -->
+  <path class="land" d="
+    M 938,245 L 958,232 L 978,228 L 998,232 L 1015,245 L 1022,262
+    L 1020,282 L 1012,302 L 1008,325 L 1010,350 L 1015,375 L 1018,400
+    L 1015,425 L 1005,448 L 990,468 L 972,482 L 952,490 L 932,490
+    L 912,482 L 895,465 L 882,445 L 875,422 L 875,398 L 878,372
+    L 882,345 L 882,318 L 878,292 L 872,268 L 872,248 L 882,235
+    L 900,228 L 920,228 Z
+  "/>
+  <!-- Madagascar -->
+  <path class="land" d="
+    M 1035,428 L 1042,418 L 1050,422 L 1055,438 L 1052,455 L 1042,462
+    L 1032,456 L 1028,440 Z
+  "/>
+
+  <!-- ══ ASIA (SOUTH + EAST) ══ -->
+  <!-- Indian Subcontinent -->
+  <path class="land" d="
+    M 1095,235 L 1118,228 L 1138,232 L 1148,248 L 1145,268 L 1135,290
+    L 1122,312 L 1108,332 L 1098,348 L 1092,338 L 1088,315 L 1088,292
+    L 1092,268 Z
+  "/>
+  <!-- Southeast Asia / Indochina -->
+  <path class="land" d="
+    M 1188,205 L 1208,198 L 1228,202 L 1242,218 L 1245,238 L 1238,255
+    L 1222,265 L 1205,262 L 1192,248 L 1185,232 Z
+  "/>
+  <!-- Malay Peninsula -->
+  <path class="land" d="
+    M 1228,265 L 1238,272 L 1242,290 L 1238,308 L 1228,312 L 1218,305
+    L 1215,288 L 1218,272 Z
+  "/>
+  <!-- China / East Asia -->
+  <path class="land" d="
+    M 1145,115 L 1178,108 L 1215,108 L 1245,115 L 1265,130 L 1272,150
+    L 1268,170 L 1255,188 L 1235,200 L 1212,205 L 1188,205 L 1165,198
+    L 1148,182 L 1142,162 L 1145,142 Z
+  "/>
+  <!-- Japan -->
+  <path class="land" d="
+    M 1285,140 L 1295,132 L 1308,135 L 1315,148 L 1310,160 L 1298,165
+    L 1288,158 Z
+  "/>
+  <path class="land" d="
+    M 1295,162 L 1308,158 L 1318,165 L 1318,178 L 1308,182 L 1298,175 Z
+  "/>
+  <!-- Sri Lanka -->
+  <path class="land" d="
+    M 1108,355 L 1115,350 L 1122,358 L 1118,368 L 1108,368 Z
+  "/>
+  <!-- Borneo -->
+  <path class="land" d="
+    M 1258,295 L 1278,285 L 1298,288 L 1308,305 L 1305,325 L 1290,338
+    L 1272,340 L 1258,328 L 1252,310 Z
+  "/>
+  <!-- Java -->
+  <path class="land" d="
+    M 1245,355 L 1268,348 L 1292,350 L 1305,360 L 1298,372 L 1272,374
+    L 1248,368 Z
+  "/>
+  <!-- Sumatra -->
+  <path class="land" d="
+    M 1192,325 L 1218,308 L 1242,312 L 1252,328 L 1248,345 L 1228,352
+    L 1205,348 L 1190,335 Z
+  "/>
+  <!-- Philippines -->
+  <path class="land" d="
+    M 1298,238 L 1310,232 L 1322,238 L 1322,252 L 1312,258 L 1298,252 Z
+  "/>
+  <path class="land" d="
+    M 1305,260 L 1318,255 L 1328,262 L 1325,275 L 1312,278 L 1302,270 Z
+  "/>
+
+  <!-- ══ AUSTRALIA ══ -->
+  <path class="land" d="
+    M 1368,548 L 1398,528 L 1435,518 L 1475,518 L 1510,528 L 1538,548
+    L 1552,572 L 1555,600 L 1548,628 L 1530,652 L 1505,668 L 1475,674
+    L 1445,668 L 1418,650 L 1398,625 L 1385,598 L 1378,570 Z
+  "/>
+  <!-- Tasmania -->
+  <path class="land" d="
+    M 1488,692 L 1500,685 L 1512,690 L 1512,705 L 1500,710 L 1488,705 Z
+  "/>
+  <!-- New Zealand (North Island) -->
+  <path class="land" d="
+    M 1572,648 L 1582,638 L 1595,642 L 1600,658 L 1592,670 L 1578,668 Z
+  "/>
+  <!-- New Zealand (South Island) -->
+  <path class="land" d="
+    M 1568,678 L 1582,668 L 1595,672 L 1598,690 L 1588,705 L 1572,705 L 1562,692 Z
+  "/>
+
+  <!-- ══ CITY / NODE DOTS ══ -->
+  <circle class="dot" cx="920"  cy="165" r="5"/>  <!-- London     -->
+  <circle class="dot" cx="968"  cy="168" r="5"/>  <!-- Berlin     -->
+  <circle class="dot" cx="1015" cy="185" r="5"/>  <!-- Moscow     -->
+  <circle class="dot" cx="1118" cy="248" r="5"/>  <!-- New Delhi  -->
+  <circle class="dot" cx="1215" cy="160" r="5"/>  <!-- Beijing    -->
+  <circle class="dot" cx="1298" cy="155" r="4.5"/><!-- Tokyo      -->
+  <circle class="dot" cx="268"  cy="345" r="5"/>  <!-- New York   -->
+  <circle class="dot" cx="218"  cy="400" r="4.5"/><!-- Los Angeles-->
+  <circle class="dot" cx="312"  cy="655" r="5"/>  <!-- São Paulo  -->
+  <circle class="dot" cx="955"  cy="440" r="4.5"/><!-- Nairobi    -->
+  <circle class="dot" cx="1475" cy="598" r="5"/>  <!-- Sydney     -->
+  <circle class="dot" cx="1068" cy="182" r="4.5"/><!-- Dubai      -->
+  <circle class="dot" cx="1225" cy="238" r="4.5"/><!-- Bangkok    -->
+
+  <!-- ══ NODE CONNECTION ARCS (subtle network lines) ══ -->
+  <path d="M 268,345 Q 600,200 920,165" stroke="#ffffff" stroke-width="0.8" fill="none" stroke-dasharray="5 10" opacity="0.35"/>
+  <path d="M 920,165 Q 965,168 1015,185" stroke="#ffffff" stroke-width="0.8" fill="none" stroke-dasharray="5 10" opacity="0.35"/>
+  <path d="M 1015,185 Q 1068,210 1118,248" stroke="#ffffff" stroke-width="0.8" fill="none" stroke-dasharray="5 10" opacity="0.35"/>
+  <path d="M 1118,248 Q 1165,200 1215,160" stroke="#ffffff" stroke-width="0.8" fill="none" stroke-dasharray="5 10" opacity="0.35"/>
+  <path d="M 1215,160 Q 1255,158 1298,155" stroke="#ffffff" stroke-width="0.8" fill="none" stroke-dasharray="5 10" opacity="0.35"/>
+  <path d="M 920,165 Q 938,300 955,440" stroke="#ffffff" stroke-width="0.8" fill="none" stroke-dasharray="5 10" opacity="0.28"/>
+  <path d="M 955,440 Q 1215,518 1475,598" stroke="#ffffff" stroke-width="0.8" fill="none" stroke-dasharray="5 10" opacity="0.28"/>
+  <path d="M 268,345 Q 290,500 312,655" stroke="#ffffff" stroke-width="0.8" fill="none" stroke-dasharray="5 10" opacity="0.28"/>
+</svg>

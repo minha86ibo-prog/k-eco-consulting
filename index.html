@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>K-ECO CONSULTING | Sustainable Energy Platform</title>
+  <meta name="description" content="K-ECO CONSULTING은 에코플레임의 검증된 친환경 에너지 기술을 기반으로 RE100 솔루션, 에너지 사업 개발 및 금융 플랫폼 역할을 수행하는 전문 기업입니다." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Sora:wght@400;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ===================== NAV ===================== -->
+  <header class="nav" id="nav">
+    <div class="nav__inner container">
+      <a href="#" class="nav__logo">
+        <span class="logo-mark">K</span>
+        <span class="logo-text">ECO <em>CONSULTING</em></span>
+      </a>
+      <nav class="nav__links" id="navLinks">
+        <a href="#why">Why K-ECO</a>
+        <a href="#energybox">RE100 Box</a>
+        <a href="#finance">Eco Finance</a>
+        <a href="#technology">Technology</a>
+        <a href="#insights">Insights</a>
+        <a href="#contact" class="nav__cta">사업 문의</a>
+      </nav>
+      <button class="nav__hamburger" id="hamburger" aria-label="메뉴 열기">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- ===================== HERO ===================== -->
+  <section class="hero" id="hero">
+    <canvas class="hero__canvas" id="heroCanvas"></canvas>
+    <div class="hero__overlay"></div>
+    <div class="hero__content container">
+      <div class="hero__text-area">
+        <div class="hero__title-group">
+          <div class="hero__badge reveal">Sustainable Energy Platform</div>
+          <h1 class="hero__title reveal reveal--delay1">
+            폐자원을 <span class="keyword-glow">에너지</span>로,<br />
+            <span class="keyword-glow">에너지</span>를 기업의 <span class="keyword-glow">경쟁력</span>으로
+          </h1>
+        </div>
+        <p class="hero__sub reveal reveal--delay2">
+          K-ECO CONSULTING은 에코플레임의 검증된 기술력을 기반으로<br class="br-desktop" />
+          RE100 솔루션과 에너지 사업 금융을 제공하는 데이터 기반 플랫폼입니다.
+        </p>
+        <div class="hero__actions reveal reveal--delay3">
+          <a href="#energybox" class="btn btn--primary">RE100 컨테이너 보기</a>
+          <a href="#contact" class="btn btn--ghost">사업 문의하기</a>
+        </div>
+      </div>
+      
+      <!-- Dashboard Cards -->
+      <div class="hero__stats reveal reveal--delay4">
+        <div class="stat">
+          <div>
+            <span class="stat__num" data-target="100">0</span><span class="stat__unit">%</span>
+            <span class="stat__label">재생에너지 전환율</span>
+          </div>
+          <div class="stat__graph">
+            <div class="stat__graph-line" style="clip-path: polygon(0 100%, 0 80%, 20% 60%, 40% 70%, 60% 30%, 80% 40%, 100% 0, 100% 100%);"></div>
+          </div>
+        </div>
+        <div class="stat">
+          <div>
+            <span class="stat__num" data-target="0">0</span><span class="stat__unit">g</span>
+            <span class="stat__label">실시간 탄소 배출량 목표</span>
+          </div>
+          <div class="stat__graph">
+            <div class="stat__graph-line" style="clip-path: polygon(0 100%, 0 20%, 20% 40%, 40% 30%, 60% 80%, 80% 60%, 100% 100%, 100% 100%); border-top-color: #1D4ED8; background: linear-gradient(to top, rgba(29,78,216,.2), transparent);"></div>
+          </div>
+        </div>
+        <div class="stat">
+          <div>
+            <span class="stat__num" data-target="360">0</span><span class="stat__unit">+</span>
+            <span class="stat__label">글로벌 RE100 모니터링 노드</span>
+          </div>
+          <div class="stat__graph">
+            <div class="stat__graph-line" style="clip-path: polygon(0 100%, 0 70%, 20% 50%, 40% 60%, 60% 20%, 80% 40%, 100% 10%, 100% 100%);"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="hero__scroll-hint">
+      <div class="scroll-dot"></div>
+    </div>
+  </section>
+
+  <!-- ===================== WHY K-ECO ===================== -->
+  <section class="why section" id="why">
+    <div class="container">
+      <div class="section-label reveal">Why K-ECO</div>
+      <h2 class="section-title reveal">
+        기술과 금융을 연결하여<br />
+        지속가능한 에너지 생태계를 구축합니다.
+      </h2>
+      <div class="why__structure reveal">
+        <div class="structure-node">
+          <div class="node-index">01</div>
+          <strong>Ecoflame</strong>
+          <span>기술 · 제조</span>
+        </div>
+        <div class="structure-node structure-node--center">
+          <div class="node-index">02</div>
+          <strong>K-ECO CONSULTING</strong>
+          <span>사업화 · 금융 · 판매</span>
+        </div>
+        <div class="structure-node">
+          <div class="node-index">03</div>
+          <strong>기업 고객</strong>
+          <span>RE100 · ESG · 탄소중립</span>
+        </div>
+      </div>
+      <div class="why__values">
+        <div class="value-card reveal">
+          <div class="value-card__num">01</div>
+          <h3>검증된 기술력</h3>
+          <p>에코플레임의 실증된 친환경 에너지 기술을 바탕으로 신뢰할 수 있는 솔루션을 제공합니다.</p>
+        </div>
+        <div class="value-card reveal reveal--delay1">
+          <div class="value-card__num">02</div>
+          <h3>RE100 솔루션</h3>
+          <p>기업 맞춤형 재생에너지 100% 전환 전략을 설계하고 실행까지 지원합니다.</p>
+        </div>
+        <div class="value-card reveal reveal--delay2">
+          <div class="value-card__num">03</div>
+          <h3>에너지 사업화</h3>
+          <p>아이디어에서 실질적인 에너지 사업으로 연결하는 사업화 역량을 보유합니다.</p>
+        </div>
+        <div class="value-card reveal reveal--delay3">
+          <div class="value-card__num">04</div>
+          <h3>투자 연계</h3>
+          <p>에너지 프로젝트와 투자 자본을 연결하는 독자적인 금융 플랫폼을 운영합니다.</p>
+        </div>
+        <div class="value-card reveal reveal--delay4">
+          <div class="value-card__num">05</div>
+          <h3>ESG 대응</h3>
+          <p>글로벌 ESG 규제와 탄소국경조정제도(CBAM)에 선제적으로 대응할 수 있도록 지원합니다.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== RE100 ENERGY BOX ===================== -->
+  <section class="energybox section section--dark" id="energybox">
+    <div class="container">
+      <div class="section-label reveal">RE100 Energy Box</div>
+      <h2 class="section-title reveal">
+        RE100을 담은 <span class="text-accent">컨테이너</span>
+      </h2>
+      <p class="section-desc reveal">
+        설치가 쉽고, 확장이 가능하며, 즉시 활용 가능한<br />
+        차세대 분산 에너지 시스템
+      </p>
+      <div class="energybox__layout">
+        <div class="energybox__visual reveal">
+          <img src="img/Re100_real.png" alt="RE100 컨테이너" class="energybox__image" />
+          <img src="img/Re100_real02.png" alt="RE100 내부 투시" class="energybox__image energybox__image--bottom" />
+        </div>
+        <div class="energybox__features reveal reveal--delay1">
+          <div class="feature-item">
+            <span class="feature-item__icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon></svg></span>
+            <div>
+              <strong>전력 생산</strong>
+              <p>폐자원 열분해 공정을 통한 안정적 전력 공급</p>
+            </div>
+          </div>
+          <div class="feature-item">
+            <span class="feature-item__icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="23 4 23 10 17 10"></polyline><polyline points="1 20 1 14 7 14"></polyline><path d="M3.51 9a9 9 0 0 1 14.85-3.36L23 10M1 14l4.64 4.36A9 9 0 0 0 20.49 15"></path></svg></span>
+            <div>
+              <strong>친환경 에너지</strong>
+              <p>탄소배출 없는 순환경제 기반 에너지 생산</p>
+            </div>
+          </div>
+          <div class="feature-item">
+            <span class="feature-item__icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M2 20a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V8l-7 5V8l-7 5V4a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2Z"></path><path d="M17 18h1"></path><path d="M12 18h1"></path><path d="M7 18h1"></path></svg></span>
+            <div>
+              <strong>산업 현장 적용</strong>
+              <p>공장, 물류센터 등 다양한 산업 현장에 즉시 설치</p>
+            </div>
+          </div>
+          <div class="feature-item">
+            <span class="feature-item__icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M11 20A7 7 0 0 1 9.8 6.1C15.5 5 17 4.48 19 2c1 2 2 4.18 2 8 0 5.5-4.78 10-10 10Z"></path><path d="M2 22l10-10"></path></svg></span>
+            <div>
+              <strong>탄소중립 대응</strong>
+              <p>2050 탄소중립 목표 달성을 위한 실질적 솔루션</p>
+            </div>
+          </div>
+          <div class="feature-item">
+            <span class="feature-item__icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="22 7 13.5 15.5 8.5 10.5 2 17"></polyline><polyline points="16 7 22 7 22 13"></polyline></svg></span>
+            <div>
+              <strong>ESG 경쟁력 강화</strong>
+              <p>글로벌 공급망 ESG 요구에 선제적으로 대응</p>
+            </div>
+          </div>
+          <a href="#contact" class="btn btn--primary mt-2">도입 문의하기</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== ECO FINANCE ===================== -->
+  <section class="finance section" id="finance">
+    <div class="container">
+      <div class="section-label reveal">Eco Finance</div>
+      <h2 class="section-title reveal">기술과 자본을 <span class="text-accent">연결</span>합니다.</h2>
+      <p class="section-desc reveal">
+        많은 기업은 기술은 있지만 자금이 부족합니다.<br />
+        많은 투자자는 자본은 있지만 좋은 프로젝트를 찾지 못합니다.<br />
+        K-ECO CONSULTING은 에너지 사업과 투자 자본을 연결하는 플랫폼 역할을 수행합니다.
+      </p>
+      <div class="finance__flow reveal">
+        <div class="flow-step">
+          <div class="flow-step__num">01</div>
+          <div class="flow-step__content">
+            <strong>에너지 사업</strong>
+            <p>사업성 검토 및 개발</p>
+          </div>
+        </div>
+        <div class="flow-arrow">→</div>
+        <div class="flow-step">
+          <div class="flow-step__num">02</div>
+          <div class="flow-step__content">
+            <strong>투자 유치</strong>
+            <p>자본 연결 및 파이낸싱</p>
+          </div>
+        </div>
+        <div class="flow-arrow">→</div>
+        <div class="flow-step">
+          <div class="flow-step__num">03</div>
+          <div class="flow-step__content">
+            <strong>사업 확장</strong>
+            <p>스케일업 및 운영</p>
+          </div>
+        </div>
+        <div class="flow-arrow">→</div>
+        <div class="flow-step">
+          <div class="flow-step__num">04</div>
+          <div class="flow-step__content">
+            <strong>수익 창출</strong>
+            <p>지속 가능한 리턴</p>
+          </div>
+        </div>
+      </div>
+      <div class="finance__services">
+        <div class="service-card reveal">
+          <div class="service-card__icon"><svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="#22c55e" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="7" width="20" height="14" rx="2" ry="2"></rect><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path></svg></div>
+          <h3>프로젝트 파이낸싱</h3>
+          <p>에너지 사업에 특화된 구조화 금융 솔루션</p>
+        </div>
+        <div class="service-card reveal reveal--delay1">
+          <div class="service-card__icon"><svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="#22c55e" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="23 6 13.5 15.5 8.5 10.5 1 18"></polyline><polyline points="17 6 23 6 23 12"></polyline></svg></div>
+          <h3>투자유치 자문</h3>
+          <p>IR 전략 수립부터 투자자 매칭까지</p>
+        </div>
+        <div class="service-card reveal reveal--delay2">
+          <div class="service-card__icon"><svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="#22c55e" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon></svg></div>
+          <h3>에너지 사업 개발</h3>
+          <p>사이트 발굴, 인허가, 개발까지 원스톱</p>
+        </div>
+        <div class="service-card reveal reveal--delay3">
+          <div class="service-card__icon"><svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="#22c55e" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg></div>
+          <h3>사업성 검토</h3>
+          <p>데이터 기반 타당성 분석과 리스크 평가</p>
+        </div>
+        <div class="service-card reveal reveal--delay4">
+          <div class="service-card__icon"><svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="#22c55e" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M11 20A7 7 0 0 1 9.8 6.1C15.5 5 17 4.48 19 2c1 2 2 4.18 2 8 0 5.5-4.78 10-10 10Z"></path><path d="M2 21c0-3 1.85-5.36 5.08-6C9.5 14.52 12 13 13 12"></path></svg></div>
+          <h3>ESG 금융 연계</h3>
+          <p>녹색 채권, 지속가능연계 대출 구조 설계</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== TECHNOLOGY ===================== -->
+  <section class="technology section section--dark" id="technology">
+    <div class="container">
+      <div class="section-label reveal">Technology</div>
+      <h2 class="section-title reveal">에코플레임의 검증된<br /><span class="text-accent">친환경 에너지 기술</span></h2>
+      <div class="tech__process reveal">
+        <div class="tech-step">
+          <div class="tech-step__icon"><svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="#22c55e" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2C8 2 5 3 5 4.5V19.5C5 21 8 22 12 22S19 21 19 19.5V4.5C19 3 16 2 12 2Z"></path><path d="M5 4.5C5 6 8 7 12 7S19 6 19 4.5"></path><path d="M5 12C5 13.5 8 14.5 12 14.5S19 13.5 19 12"></path></svg></div>
+          <strong>폐유 수거</strong>
+          <p>산업 폐유를 체계적으로 수집 및 분류</p>
+        </div>
+        <div class="tech-step">
+          <div class="tech-step__icon"><svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="#22c55e" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M8.5 14.5A2.5 2.5 0 0 0 11 12c0-1.38-.5-2-1-3-1.072-2.143-.224-4.054 2-6 .5 2.5 2 4.9 4 6.5 2 1.6 3 3.5 3 5.5a7 7 0 1 1-14 0c0-1.153.433-2.294 1-3a2.5 2.5 0 0 0 2.5 2.5z"></path></svg></div>
+          <strong>열분해 공정</strong>
+          <p>고온 열분해를 통한 연료 정제</p>
+        </div>
+        <div class="tech-step">
+          <div class="tech-step__icon"><svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="#22c55e" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22v-5"></path><path d="M9 8V2"></path><path d="M15 8V2"></path><path d="M18 8v5a4 4 0 0 1-4 4h-4a4 4 0 0 1-4-4V8Z"></path></svg></div>
+          <strong>에너지 생산</strong>
+          <p>정제 연료로 전기 및 열에너지 생산</p>
+        </div>
+        <div class="tech-step">
+          <div class="tech-step__icon"><svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="#22c55e" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="7" height="7"></rect><rect x="14" y="3" width="7" height="7"></rect><rect x="14" y="14" width="7" height="7"></rect><rect x="3" y="14" width="7" height="7"></rect><path d="M10 6h4"></path><path d="M10 17h4"></path><path d="M6 10v4"></path><path d="M17 10v4"></path></svg></div>
+          <strong>전력 공급</strong>
+          <p>산업 현장 및 전력망에 안정적 공급</p>
+        </div>
+        <div class="tech-step tech-step--highlight">
+          <div class="tech-step__icon"><svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="#22c55e" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M11 20A7 7 0 0 1 9.8 6.1C15.5 5 17 4.48 19 2c1 2 2 4.18 2 8 0 5.5-4.78 10-10 10Z"></path><circle cx="12" cy="12" r="10" stroke-width="1"></circle></svg></div>
+          <strong>RE100 실현</strong>
+          <p>재생에너지 100% 전환 목표 달성</p>
+        </div>
+      </div>
+      <div class="tech__strengths">
+        <div class="strength reveal">
+          <div class="strength__bar">
+            <div class="strength__fill" data-width="95"></div>
+          </div>
+          <span>친환경 기술 완성도</span>
+          <strong>95%</strong>
+        </div>
+        <div class="strength reveal reveal--delay1">
+          <div class="strength__bar">
+            <div class="strength__fill" data-width="88"></div>
+          </div>
+          <span>에너지 효율</span>
+          <strong>88%</strong>
+        </div>
+        <div class="strength reveal reveal--delay2">
+          <div class="strength__bar">
+            <div class="strength__fill" data-width="92"></div>
+          </div>
+          <span>탄소배출 저감</span>
+          <strong>92%</strong>
+        </div>
+        <div class="strength reveal reveal--delay3">
+          <div class="strength__bar">
+            <div class="strength__fill" data-width="80"></div>
+          </div>
+          <span>순환경제 기여도</span>
+          <strong>80%</strong>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== PARTNERS ===================== -->
+  <section class="partners section section--dark" id="partners">
+    <div class="container">
+      <div class="partners__marquee">
+        <div class="marquee-track">
+          <!-- First set -->
+          <div class="partner-logo"><span>KOREA ENERGY</span></div>
+          <div class="partner-logo"><span>ECO FLAME</span></div>
+          <div class="partner-logo"><span>GLOBAL GRID</span></div>
+          <div class="partner-logo"><span>GREEN TECH</span></div>
+          <div class="partner-logo"><span>CARBON ZERO</span></div>
+          <div class="partner-logo"><span>FUTURE INC</span></div>
+          <!-- Duplicate set for infinite loop -->
+          <div class="partner-logo"><span>KOREA ENERGY</span></div>
+          <div class="partner-logo"><span>ECO FLAME</span></div>
+          <div class="partner-logo"><span>GLOBAL GRID</span></div>
+          <div class="partner-logo"><span>GREEN TECH</span></div>
+          <div class="partner-logo"><span>CARBON ZERO</span></div>
+          <div class="partner-logo"><span>FUTURE INC</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== INSIGHTS ===================== -->
+  <section class="insights section" id="insights">
+    <div class="container">
+      <div class="section-label reveal">Insights</div>
+      <h2 class="section-title reveal">에너지 인사이트</h2>
+      <div class="insights__grid">
+        <article class="insight-card reveal">
+          <div class="insight-card__tag">RE100 가이드</div>
+          <h3>2025년 RE100 이행 가이드라인 총정리</h3>
+          <p>글로벌 RE100 이니셔티브의 최신 요건과 국내 기업의 이행 전략을 정리했습니다.</p>
+          <span class="insight-card__date">2025.06</span>
+        </article>
+        <article class="insight-card reveal reveal--delay1">
+          <div class="insight-card__tag">ESG 인사이트</div>
+          <h3>CBAM 시행과 제조업의 대응 전략</h3>
+          <p>EU 탄소국경조정제도(CBAM) 본격 시행에 따른 국내 수출 기업의 실질적 대응 방안.</p>
+          <span class="insight-card__date">2025.05</span>
+        </article>
+        <article class="insight-card reveal reveal--delay2">
+          <div class="insight-card__tag">탄소배출권</div>
+          <h3>국내 탄소배출권 시장 동향과 투자 기회</h3>
+          <p>2025년 국내 탄소 크레딧 시장의 가격 추이와 에너지 투자자를 위한 시사점을 분석합니다.</p>
+          <span class="insight-card__date">2025.04</span>
+        </article>
+        <article class="insight-card reveal reveal--delay3">
+          <div class="insight-card__tag">신재생에너지</div>
+          <h3>분산 에너지 시스템이 바꾸는 산업의 미래</h3>
+          <p>RE100 컨테이너로 대표되는 분산 에너지 솔루션이 제조업과 물류업에 미치는 영향.</p>
+          <span class="insight-card__date">2025.03</span>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== CONTACT ===================== -->
+  <section class="contact section section--dark" id="contact">
+    <div class="container">
+      <div class="section-label reveal">Contact</div>
+      <h2 class="section-title reveal">
+        지속 가능한 에너지의 미래를<br />
+        <span class="text-accent">함께 설계하십시오.</span>
+      </h2>
+      <div class="contact__layout">
+        <div class="contact__info reveal">
+          <p>RE100 솔루션, 에너지 사업 파이낸싱, ESG 전략에 관한 전문적인 상담을 제공합니다.</p>
+          <ul class="contact__list">
+            <li>
+              <span><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#4ade80" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg></span>
+              <span>info@k-eco.co.kr</span>
+            </li>
+            <li>
+              <span><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#4ade80" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg></span>
+              <span>02-0000-0000</span>
+            </li>
+            <li>
+              <span><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#4ade80" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg></span>
+              <span>서울특별시 강남구 테헤란로</span>
+            </li>
+          </ul>
+          <div class="contact__areas">
+            <span class="area-tag">RE100 컨테이너</span>
+            <span class="area-tag">RE100 컨설팅</span>
+            <span class="area-tag">ESG 경영</span>
+            <span class="area-tag">탄소중립</span>
+            <span class="area-tag">투자 및 제휴</span>
+          </div>
+        </div>
+        <form class="contact__form reveal reveal--delay1" id="contactForm">
+          <div class="form-group">
+            <label for="company">회사명</label>
+            <input type="text" id="company" placeholder="회사명을 입력해 주세요" required />
+          </div>
+          <div class="form-row">
+            <div class="form-group">
+              <label for="name">담당자명</label>
+              <input type="text" id="name" placeholder="성함을 입력해 주세요" required />
+            </div>
+            <div class="form-group">
+              <label for="phone">연락처</label>
+              <input type="tel" id="phone" placeholder="010-0000-0000" />
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="email">이메일</label>
+            <input type="email" id="email" placeholder="email@company.com" required />
+          </div>
+          <div class="form-group">
+            <label>관심 분야</label>
+            <div class="checkbox-group">
+              <label class="checkbox-label"><input type="checkbox" value="RE100 컨테이너" /> RE100 컨테이너</label>
+              <label class="checkbox-label"><input type="checkbox" value="RE100 컨설팅" /> RE100 컨설팅</label>
+              <label class="checkbox-label"><input type="checkbox" value="ESG 경영" /> ESG 경영</label>
+              <label class="checkbox-label"><input type="checkbox" value="탄소중립" /> 탄소중립</label>
+              <label class="checkbox-label"><input type="checkbox" value="투자 및 제휴" /> 투자 및 제휴</label>
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="message">문의내용</label>
+            <textarea id="message" rows="4" placeholder="문의 내용을 자유롭게 작성해 주세요"></textarea>
+          </div>
+          <button type="submit" class="btn btn--primary btn--full">상담 신청하기</button>
+          <div class="form-success" id="formSuccess">
+            ✅ 상담 신청이 완료되었습니다. 빠르게 연락드리겠습니다.
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== FOOTER ===================== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__top">
+        <div class="footer__brand">
+          <span class="logo-mark">K</span>
+          <span class="logo-text">ECO <em>CONSULTING</em></span>
+          <p>Sustainable Energy Platform</p>
+          <p class="footer__slogan">폐자원을 에너지로, 에너지를 미래 가치로.</p>
+        </div>
+        <div class="footer__links">
+          <div>
+            <strong>솔루션</strong>
+            <a href="#energybox">RE100 Energy Box</a>
+            <a href="#finance">Eco Finance</a>
+            <a href="#technology">Technology</a>
+          </div>
+          <div>
+            <strong>회사</strong>
+            <a href="#why">Why K-ECO</a>
+            <a href="#insights">Insights</a>
+            <a href="#contact">Contact</a>
+          </div>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <div class="footer__copy">
+          © 2026 RE100 PLATFORM. All rights reserved. <span class="footer__sep">|</span> Webmaster : shin minha <span class="footer__sep">|</span> Email : minha86ibo@gmail.com
+        </div>
+        <div class="footer__bottom-links">
+          <a href="#">이용약관</a>
+          <a href="#">개인정보처리방침</a>
+          <span>Based on Ecoflame Technology</span>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
