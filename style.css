@@ -1263,6 +1263,15 @@ a { text-decoration: none; color: inherit; }
   padding: 10px 20px;
   border-radius: 24px;
   background: transparent;
+  transition: all 0.3s ease-in-out;
+}
+.area-tag:hover {
+  background-color: #4ade80;
+  border-color: #4ade80;
+  color: #0b1411;
+  font-weight: 600;
+  transform: translateY(-2px);
+  cursor: pointer;
 }
 
 /* Form */
